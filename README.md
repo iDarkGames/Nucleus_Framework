@@ -5,9 +5,9 @@ Nucleus is meant to be a module script importer predominantly used in the Roblox
 I take no credit whatsoever of how the importer is structured, all credit goes to its respective authors. However, there are some slight modifications to the structure in regards to how it fetches
 module scripts, splitting the behaviour in what is defined as **'Cores'**, there are **three** different ones:
 
-- SharedCore: All module scripts that will be replicated between server and client.
-- ServerCore: All module scripts that will be only replicated to the server.
-- ClientCore: All module scripts that will be only replicated to the client.
+- **SharedCore**: All module scripts that will be replicated between server and client.
+- **ServerCore**: All module scripts that will be only replicated to the server.
+- **ClientCore**: All module scripts that will be only replicated to the client.
 
 By having this separation, it allows the user to have multiple folders where the content will be searched for, this is the difference with vocksel's where it only allowed to have one specific root service to search from.
 (Not a big difference, imo).
